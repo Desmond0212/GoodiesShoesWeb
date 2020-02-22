@@ -1,0 +1,89 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="UserMasterPage.master.cs" Inherits="UserMasterPage" %>
+
+<!DOCTYPE html>
+<link href="CSS/StyleSheet.css" rel="stylesheet" />
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    
+<head runat="server">
+    <title>xxTheShoesxx</title> 
+    
+    
+    
+    <style type="text/css">
+        .auto-style1 {
+            font-size: 50pt;
+            color: #666666;
+        }
+        .auto-style2 {
+            font-size: 25pt;
+            color: #FFFFFF;
+        }
+        .auto-style3 {
+            color: #808080;
+            width: 100%;
+    background-color: black;
+    padding: 40px 0px;
+        }
+
+
+    </style>
+    
+    
+    
+</head>
+    
+<body>
+   
+       
+   
+       
+
+       
+   
+       <div id="nav_wrapper">
+
+            <ul><br />
+                <li><a href="UserHomePage.aspx">Home</a></li>
+                <li><a href="Shop(Sport Shoes).aspx">Shop</a></li>
+                <li><a href="Sale.aspx">Sale</a></li>
+                <li><a href="About Us.aspx">About Us</a></li>
+                <li><a href="ContactUs.aspx">Contact Us</a></li>
+                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                
+                <li><a href="Login Page.aspx">Login</a></li>
+                <li><a href="Registration.aspx">Register</a></li>
+            </ul>
+
+        </div>
+     
+
+    <asp:ContentPlaceHolder id="head" runat="server">
+
+    </asp:ContentPlaceHolder>
+
+     <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+
+    
+
+        
+                    <p class="auto-style3">
+                    ©<o:p> 2017 by GoodieShoe.My. All Rights Reserved</o:p></p>
+ 
+
+     
+
+ 
+
+      
+
+ 
+
+     
+
+ 
+
+</body> 
+</html>
